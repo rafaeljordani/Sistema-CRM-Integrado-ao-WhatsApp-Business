@@ -1,0 +1,49 @@
+.BarraDePesquisa {
+
+
+    width: 280px;
+    height: 40px;
+    
+}
+
+
+.pesquisa {
+
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+
+    border-radius: 50px;
+
+    padding-left: 20px; 
+    background-color: rgba(255, 81, 0, 0.13);
+
+     transition: border 0.3s ease-out;
+     color: rgb(240, 141, 50);
+    
+}
+
+.pesquisa::placeholder {
+    color: rgb(240, 141, 50);;
+}
+
+.pesquisa:hover {
+
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.pesquisa:focus {
+
+    border: 3px solid rgb(240, 141, 50);
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.TituloPagina {
+
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+
+}

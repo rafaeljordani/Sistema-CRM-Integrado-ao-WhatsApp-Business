@@ -1,0 +1,51 @@
+.sidenav {
+    position: fixed;
+    width: 60px; /* tamanho dela escondida 40px*/
+    height: 100vh;
+    
+    background-color: rgb(240, 141, 50);
+
+    display: flex;
+    flex-direction: column; /*aqui faz os obejetos de dentro ficarem em sentido de fila para baixo*/
+    align-items: center; /*alinha ele no centro da barra*/
+    justify-content: space-between;
+
+    transition: width 0.3s ease; /* animação */ 
+}
+
+/* .sidenav:hover {
+    width: 60px;  /* aqui tem que ser o tamanho, que o usuario ira ulltilizar } */
+
+.button-top button:first-child {
+    margin-top: 10px;
+    margin-bottom: 65px;
+}
+
+.button-down button:last-child {
+
+    margin-bottom: 10px ;
+}
+
+.button-top,
+.button-down {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 15px;
+    
+
+    border: none;
+    background-color:transparent;
+
+     align-items: center;
+     cursor: pointer;
+    
+/* Lembrar que aqui devo tornar rensposivel para outras telas no HOME */
+}
+
+button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
