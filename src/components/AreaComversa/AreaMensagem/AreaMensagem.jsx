@@ -5,7 +5,7 @@ import "./AreaMensagem.css"
 export default function AreaMensagem() {
 
     return(
-        <div className="funciona">
+        <div className="AreaMensagems">
 
 
         </div>
